@@ -29,24 +29,125 @@ body {
     color: var(--color-text);
 }
 
+.container {
+    padding: 5px;
+}
+
+.col {
+    padding: 10px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
 /*utility*/
+.even-section {
+    background-color: var(--color-primary-color);
+}
 
+.small-border {
+    border-radius: 20px;
+}
 
+.big-border {
+    border-radius: 20px;
+}
 
+.circle {
+    border-radius: 50%;
+}
 
+.bg-card {
+    background-color: var(--color-bg-card);
+}
 
+.bg-card-light {
+    background-color: var(--color-light-color);
+}
+
+.bg-primary {
+    background-color: var(--color-primary-color);
+}
+
+/*bottoni*/
+.btn {
+    padding: 6px 10px;
+    text-decoration: none;
+    display:inline-block;
+    color: var(--color-light-color);
+    background-color: var(--color-primary-color);
+    border-radius: 10px;
+}
+
+.btn-card {
+    background-color: var(--color-secondary-color);
+}
+
+/*padding*/ 
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*testo*/
+.text-primary {
+    color: var(--color-primary-color);
+}
+
+.text-secondary {
+    color: var(--color-secondary-color);
+}
+
+.text.light {
+    color: var(--color-light-color);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.line-height {
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5em;
+}
 /*header*/
 header {
-    background-color: var(--color-primary-color);
+    background-color: var(--color-secondary-color);
     color: var(--color-light-color);
 }
 
 
 
 /*main*/
+.card-image {
+    position: relative;
+    top: 10px;
+}
 
-
-
+.icon {
+    font-size: 3em;
+    color: var(--color-secondary-color);
+}
 
 
 /*footer*/
@@ -55,4 +156,6 @@ footer {
     color: var(--color-light-color);
 }
 
+
+/*media*/
 
