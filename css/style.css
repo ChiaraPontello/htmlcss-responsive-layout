@@ -29,3 +29,30 @@ body {
     color: var(--color-text);
 }
 
+/*utility*/
+
+
+
+
+
+/*header*/
+header {
+    background-color: var(--color-primary-color);
+    color: var(--color-light-color);
+}
+
+
+
+/*main*/
+
+
+
+
+
+/*footer*/
+footer {
+    background-color: var(--color-dark-color);
+    color: var(--color-light-color);
+}
+
+
