@@ -46,13 +46,7 @@ img {
     width: 100%;
 }
 
-.cardtwo {
-    background-color: var(--color-light-color);
-    width: 80%;
-    border-radius: 15px;
-    margin-left: 40px;
-    margin-bottom: 30px;
-}
+
 
 /*utility*/
 .even-section {
@@ -176,6 +170,7 @@ nav ul {
     font-size: 3em;
     color: var(--color-secondary-color);
 }
+
 
 
 
