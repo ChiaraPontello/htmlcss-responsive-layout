@@ -230,7 +230,13 @@ footer {
     width: calc((100% / 3) * 2);
 }
 
+#benefits .col {
+    width: calc(100% / 2);
+}
 
+#about-us .col {
+    width: calc(100% / 2);
+}
 
 }
 
@@ -270,6 +276,11 @@ footer {
         
     } 
 
+    #benefits .col {
+        width: calc(100% / 3);
+    }
+
+    
 
    
 }
